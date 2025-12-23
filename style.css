@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}.container{
+   max-width: 1220px;
+   margin: 0 auto;
+
+}
+
+body{
+    background-color: rgb(235, 204, 204);
+}
+header{
+    padding: 46px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: gray;
+}
+nav ul li a:hover{
+    color: black;
+}
+.virtual{
+    display: flex;
+    align-items: center;
+
+    gap: 131px;
+}
+.virtual h1{
+    font-size: 45px;
+}
+.virtual p{
+    font-size: 19px;
+    color: gray;
+    margin: 30px 0;
+}
+.btn{
+color: blue;
+    padding: 17px 51px;
+background-color: white;
+border-radius: 20px;
+transition: 2s;
+}
+.btn:hover{
+    background-color: blue;
+    color: white;
+}
+.servis{
+    padding: 50px;
+}
+.servis h2{
+    text-align: center;
+margin-bottom: 20px;
+font-size: 30px;
+}
+.p{
+    color: gray;
+    width: 950px;
+    text-align: center;
+    font-size: 19px;
+margin: 0 auto;
+}
+.card{
+    width: 300px;
+    height: 350px;
+    background-color: rgb(210, 206, 206);
+    border-radius: 20px;
+    padding: 50px;
+    color: black;
+    transition: 2s;
+}
+.card h3 {
+    margin: 10px 0;
+    font-size: 28px;
+}
+.card p{
+margin-top: 20px;
+font-size: 19px;
+line-height: 26px;
+}
+.card:hover{
+    background-color: blue;
+    color: white;
+}
+.cardota{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.info{
+    padding: 50px 0;
+}
+.info h2{
+    text-align: center;
+    font-size: 40px;
+}
+.info-ota{
+    display: flex;
+    align-items: center;
+gap: 117px;
+margin-top: 10px;
+}
+.info h3{
+    font-size: 28px;
+}
+.info-ota p{
+    color: gray;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 50px;
+}
+.infoyozuv{
+    width: 435px;
+    
+}
+.aricl{
+    padding: 50px 0;
+}
+.aricl h2{
+    text-align: center;
+    font-size: 40px;
+}
+.articlcard{
+    width: 380px;
+    height: 580px;
+    background-color: white;
+    border-radius: 20px;
+}
+.cardtext{
+    padding: 50px;
+
+}
+.cardtext p{
+    color: gray;
+    margin: 15px;
+}
+.cardtext a{
+    color: blue;
+    text-decoration: none;
+}
+.articlota{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    margin-top: 30px;
+
+}
+.btn{
+margin: 0 auto;
+}
+footer{
+    padding: 100px;
+
+background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+
+
+
+}
+footer .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+footer .container div{
+   max-width: 450px;
+   color: white;
+}
